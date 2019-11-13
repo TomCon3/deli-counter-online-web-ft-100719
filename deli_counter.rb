@@ -10,6 +10,6 @@ def line(katz_deli)
     end
     puts "The line is currently: #{other_deli.join("")}"
   else
-    puts "The line is currently #{another_line.each_with_index}"
+    puts "The line is currently empty."
 end 
 end
