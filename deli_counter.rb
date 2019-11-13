@@ -15,8 +15,7 @@ end
 end
 
 def take_a_number(line, new person)
-  katz_deli.push("Ada")
-  puts "Welcome,"
+  line.push("Ada")
   
   
   
