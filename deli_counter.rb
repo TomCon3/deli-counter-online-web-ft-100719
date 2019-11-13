@@ -15,13 +15,9 @@ end
 end
 
 
-def take_a_number(katz_deli,new person)
-  katz_deli.push(new person)
-  counter = 0
-  katz_deli.each do |name|
-    another_deli.push("#{counter}")
-  counter += 1
-  puts "Welcome, #{new person}. You are number #{katz_deli.length} in line."
+def take_a_number(katz_deli,name)
+  katz_deli.push(name)
+  puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
 end
   
   
