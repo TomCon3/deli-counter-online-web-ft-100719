@@ -15,7 +15,7 @@ end
 end
 
 def take_a_number(line, new person)
-  line.push("Ada")
+  line.push(new person)
   
   
   
