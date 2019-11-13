@@ -1,6 +1,6 @@
 katz_deli = []
 
-def line(other_deli)
+def line(katz_deli)
   if katz_deli.length >= 1
     other_deli = []
     counter = 1
