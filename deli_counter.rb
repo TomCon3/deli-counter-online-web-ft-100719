@@ -16,7 +16,7 @@ end
 
 
 def take_a_number(katz_deli,new person)
-  another_deli = []
+  katz_deli.push(new person)
   counter = 0
   katz_deli.each do |name|
     another_deli.push("#{counter}")
