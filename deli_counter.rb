@@ -6,8 +6,9 @@ def line(katz_deli)
     counter = 1
     katz_deli.each do |name|
       other_deli.push("#{counter}. #{name}")
-      counter += 1 
-    puts "The line is currently empty."
+      counter += 1
+    end
+    puts "The line is currently 
   else
     puts "The line is currently #{another_line.each_with_index}"
 end 
