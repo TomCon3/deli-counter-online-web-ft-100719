@@ -4,9 +4,9 @@ def line(katz_deli)
   if katz_deli.length >= 1
     other_deli = []
     counter = 1
-    katz_deli.each do |name|
+    katz_deli.each do |name |
       other_deli.push("#{counter}. #{name}")
-      counter += 1
+      counter += 1 
     end
     puts "The line is currently: #{other_deli.join("")}"
   else
