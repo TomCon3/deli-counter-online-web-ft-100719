@@ -14,6 +14,7 @@ def line(katz_deli)
 end 
 end
 
+
 def take_a_number(katz_deli,new person)
   katz_deli.push(new person)
   counter += 1
