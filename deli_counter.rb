@@ -5,7 +5,7 @@ def line(katz_deli)
     other_deli = []
     counter = 1
     katz_deli.each do |name|
-      other_deli.push #{counter
+      other_deli.push "#{counter.
     puts "The line is currently empty."
   else
     puts "The line is currently #{another_line.each_with_index}"
