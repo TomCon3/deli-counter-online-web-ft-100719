@@ -14,8 +14,9 @@ def line(katz_deli)
 end 
 end
 
-def take_a_number(katz_deli)
+def take_a_number(katz_deli,new person)
   katz_deli.push(new person)
+  counter += 1
   puts "Welcome, #{new person}. You are number #{katz_deli.length} in line."
 end
   
